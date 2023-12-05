@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-import "./contentWrapper.scss";
+import "./ContentWrapper.scss";
 const ContentWrapper = ({ children }) => {
   return <div className="contentWrapper">{children}</div>;
 };
