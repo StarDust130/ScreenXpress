@@ -2,7 +2,7 @@ import "./footer.scss";
 
 import { FaGithub, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 
-import ContentWrapper from "../contentWrapper/ContentWrapper";
+import ContentWrapper from "../contentWrapper/ContentWrapper.jsx";
 
 const Footer = () => {
   return (
