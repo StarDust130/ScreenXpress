@@ -4,7 +4,7 @@ import "./SearchResult.scss";
 import { useParams } from "react-router-dom";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { fetchDataFromApi } from "../../utils/api";
-import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
+import ContentWrapper from "../../components/ContentWrapper/ContentWrapper";
 import noResults from "../../assets/no-results.png";
 import { useEffect, useState } from "react";
 import Spinner from "../../components/spinner/Spinner";

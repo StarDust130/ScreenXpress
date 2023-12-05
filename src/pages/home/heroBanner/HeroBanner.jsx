@@ -7,7 +7,7 @@ import "./heroBanner.scss";
 import useFetch from "../../../hooks/useFetch";
 import { useSelector } from "react-redux";
 import Img from "../../../components/lazyLoadImg/Img";
-import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
+import ContentWrapper from "../../../components/ContentWrapper/ContentWrapper";
 
 const HeroBanner = () => {
   const [background, setBackground] = useState("");
@@ -41,9 +41,7 @@ const HeroBanner = () => {
         </div>
       )}
 
-      <div className="opacity-layer">
-
-      </div>
+      <div className="opacity-layer"></div>
 
       <ContentWrapper>
         <div className="heroBannerContent">
