@@ -22,4 +22,4 @@ Welcome to the Movie & TV Show Hub, your ultimate destination for cinematic adve
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/StarDust130/ScreenXpress.git
