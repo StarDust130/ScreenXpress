@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { HiOutlineSearch } from "react-icons/hi";
 import { SlMenu } from "react-icons/sl";
 import { VscChromeClose } from "react-icons/vsc";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, useLocation, Link } from "react-router-dom";
 import ContentWrapper from "../ContentWrapper/ContentWrapper";
 
 const Header = () => {
@@ -80,18 +80,21 @@ const Header = () => {
     <>
       <header className={`header ${mobileMenu ? "mobileView" : ""} ${show}`}>
         <ContentWrapper>
+          <Link to="/">
           <div className="logo flex items-center transition duration-300 transform hover:scale-105">
-            <img
-              src={
-                "https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/external-popcorn-products-packaging-wanicon-lineal-color-wanicon.png"
-              }
-              alt="Logo"
-              onClick={navigationHandler}
-            />
-            <span className="text-white  font-extrabold md:text-2xl tracking-wide   ">
-              ScreenXpress
-            </span>
+            
+              <img
+                src={
+                  "https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/external-popcorn-products-packaging-wanicon-lineal-color-wanicon.png"
+                }
+                alt="Logo"
+                onClick={navigationHandler}
+              />{" "}
+              <span className="text-white  font-extrabold md:text-2xl tracking-wide   ">
+                ScreenXpress
+              </span>
           </div>
+            </Link>
           <ul className="menuItems">
             <li
               className="menuItem"
