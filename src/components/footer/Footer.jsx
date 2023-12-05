@@ -1,6 +1,11 @@
 import "./footer.scss";
 
-import { FaGithub, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaTwitter,
+  FaLinkedin,
+} from "react-icons/fa";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 
@@ -15,42 +20,27 @@ const Footer = () => {
           <li className="menuItem">Blog</li>
           <li className="menuItem">FAQ</li>
         </ul>
-        <a
-          className="font-bold mb-5 hover:text-pink-500 hover:underline underline-offset-2 socialIcons"
-          href="https://github.com/StarDust130"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Created by StarDust🌟
-        </a>
         <div className="infoText">
-          Discover the latest information about your favorite movies and TV
-          shows at MovieHub. Explore in-depth details, reviews, and
-          behind-the-scenes content. Uncover the magic of cinema with MovieHub -
-          your ultimate source for entertainment updates. MovieHub is dedicated
-          to providing accurate and up-to-date information about the world of
-          entertainment.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
         </div>
         <div className="socialIcons">
-          <a
-            className="flex gap-3"
-            href="https://github.com/StarDust130"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span className="icon">
-              <FaGithub />
-            </span>
-            <span className="icon">
-              <FaInstagram />
-            </span>
-            <span className="icon">
-              <FaTwitter />
-            </span>
-            <span className="icon">
-              <FaLinkedin />
-            </span>
-          </a>
+          <span className="icon">
+            <FaFacebookF />
+          </span>
+          <span className="icon">
+            <FaInstagram />
+          </span>
+          <span className="icon">
+            <FaTwitter />
+          </span>
+          <span className="icon">
+            <FaLinkedin />
+          </span>
         </div>
       </ContentWrapper>
     </footer>

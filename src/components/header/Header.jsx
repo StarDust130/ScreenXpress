@@ -7,7 +7,6 @@ import { SlMenu } from "react-icons/sl";
 import { VscChromeClose } from "react-icons/vsc";
 import { useNavigate, useLocation } from "react-router-dom";
 import ContentWrapper from "../contentWrapper/ContentWrapper";
-import logo from "../../assets/movix-logo.svg";
 
 const Header = () => {
   const [show, setShow] = useState("top");
@@ -81,8 +80,17 @@ const Header = () => {
     <>
       <header className={`header ${mobileMenu ? "mobileView" : ""} ${show}`}>
         <ContentWrapper>
-          <div className="logo">
-            <img src={logo} alt="Logo" onClick={navigationHandler} />
+          <div className="logo flex items-center transition duration-300 transform hover:scale-105">
+            <img
+              src={
+                "https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/external-popcorn-products-packaging-wanicon-lineal-color-wanicon.png"
+              }
+              alt="Logo"
+              onClick={navigationHandler}
+            />
+            <span className="text-white  font-extrabold md:text-2xl tracking-wide   ">
+              ScreenXpress
+            </span>
           </div>
           <ul className="menuItems">
             <li
