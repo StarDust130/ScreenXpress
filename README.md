@@ -16,7 +16,6 @@ Welcome to the Movie & TV Show Hub, your ultimate destination for cinematic adve
 - **State-of-the-Art Styling:** Experience visually stunning design with SCSS and Tailwind CSS. ✨🎨
 - **Real-time Updates:** Receive the latest movie and TV show data in real-time, keeping you informed. 🕒📡
 
-
 ### Technologies Used
 
 - **React.js:** Front-end development made easy. ⚛️
