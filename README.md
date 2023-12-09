@@ -7,7 +7,6 @@ Welcome to the Movie & TV Show Hub, your ultimate destination for cinematic adve
 
 ## Features
 
-
 - **Discover the Latest:** Stay up-to-date with the hottest movies and TV shows. 🌟🔥
 - **Search & Explore:** Find your favorite content with our powerful search feature. 🔍🗺️
 - **Responsive Design:** Enjoy a seamless experience on all devices, from desktop to mobile. 📱💻
